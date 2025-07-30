@@ -20,6 +20,32 @@ namespace Entities.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Entities.Entities.SuratDoni", b =>
+            {
+                b.Property<int>("Id")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("int");
+
+                SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                b.Property<DateTime>("CreatedDate")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("datetime2")
+                    .HasDefaultValueSql("getdate()");
+
+                b.Property<DateTime>("ModifiedDate")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("datetime2")
+                    .HasDefaultValueSql("getdate()");
+
+                b.Property<string>("NoSurat")
+                    .HasColumnType("string");
+
+                b.HasKey("Id");
+
+                b.ToTable("SuratDoni");
+            });
 #pragma warning restore 612, 618
         }
     }

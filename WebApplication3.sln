@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication3", "WebApplication3\WebApplication3.csproj", "{4C97F9A3-278D-4DE8-8F82-FD4536BECBA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{AFC4ACB7-22DA-43CA-95E1-8407C543B53B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{49C945D9-91B6-4FB5-B20A-F417DF3E099D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AFC4ACB7-22DA-43CA-95E1-8407C543B53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC4ACB7-22DA-43CA-95E1-8407C543B53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC4ACB7-22DA-43CA-95E1-8407C543B53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C945D9-91B6-4FB5-B20A-F417DF3E099D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C945D9-91B6-4FB5-B20A-F417DF3E099D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C945D9-91B6-4FB5-B20A-F417DF3E099D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C945D9-91B6-4FB5-B20A-F417DF3E099D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
